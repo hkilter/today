@@ -20,6 +20,61 @@ By reading some HTML with some classes in, you can see how – if at all – the
     .person--female__hand {}
     .person__hand--left {}
 
+## Examples
+
+A block
+
+    block-name
+
+HTML
+  
+    <div class="block-name">...</div>
+
+CSS
+
+    .block-name { color: red; }
+
+An element
+
+    block-name__elem-name
+
+HTML
+
+    <div class="block-name"> ... <span class="block-name__elem-name"></span> </div>
+
+CSS
+
+    .block-name__elem-name { color: red; }
+
+A block modifier
+
+    block-name_mod-name
+    block-name_mod-name_mod-val
+
+HTML
+
+    <div class="block-name block-name_mod-name">...</div>
+
+CSS
+
+    .block-name_mod-name { display: none }
+
+An element moodifier
+
+    block-name__elem-name_mod-name
+    block-name__elem-name_mod-name_mod-val
+
+HTML
+
+    <div class="block-name"> 
+        <span class="block-name__elem-name block-name__elem-name_mod-name block-name__elem-name_mod-name_mod-val">
+        ...
+        </span>  
+    </div>
+
+CSS
+
+    .block-name__elem-name_mod-name_mod-val { color: blue; }
 
 [BEM]: https://en.bem.info/
 [his_article]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
