@@ -22,7 +22,7 @@ By reading some HTML with some classes in, you can see how – if at all – the
 
 ## Examples
 
-A block
+### A block
 
     block-name
 
@@ -34,7 +34,7 @@ CSS
 
     .block-name { color: red; }
 
-An element
+### An element
 
     block-name__elem-name
 
@@ -46,7 +46,7 @@ CSS
 
     .block-name__elem-name { color: red; }
 
-A block modifier
+### A block modifier
 
     block-name_mod-name
     block-name_mod-name_mod-val
@@ -59,7 +59,7 @@ CSS
 
     .block-name_mod-name { display: none }
 
-An element moodifier
+### An element moodifier
 
     block-name__elem-name_mod-name
     block-name__elem-name_mod-name_mod-val
