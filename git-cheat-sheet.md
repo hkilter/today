@@ -46,11 +46,3 @@ Start a new repository or obtain one from an existing URL    $ git init [proje
     $ git diff [first-branch]...[second-branch]Shows content differences between two branches    $ git show [commit]Outputs metadata and content changes of the specified commit## REDO COMMITSErase mistakes and craft replacement history    $ git reset [commit]Undoes all commits after [commit], preserving changes locally 
 
     $ git reset --hard [commit]Discards all history and changes back to the specified commit## SYNCHRONIZE CHANGESRegister a repository bookmark and exchange version history    $ git fetch [bookmark]Downloads all history from the repository bookmark    $ git merge [bookmark]/[branch]Combines bookmark’s branch into current local branch    $ git push [alias] [branch]Uploads all local branch commits to GitHub    $ git pullDownloads bookmark history and incorporates changes
-
-
-
-
-
-
-
-
