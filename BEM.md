@@ -76,5 +76,8 @@ CSS
 
     .block-name__elem-name_mod-name_mod-val { color: blue; }
 
+[For more info][more]
+
 [BEM]: https://en.bem.info/
 [his_article]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
+[more]: https://en.bem.info/methodology/naming-convention/
